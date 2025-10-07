@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+     Scanner o = new Scanner(System.in);
+     int a = o.nextInt();
+     int l = o.nextInt();
+     int w = o.nextInt();
+     int r = o.nextInt();
+     int b1 = o.nextInt();
+     int s  = o.nextInt();
+     int b2 = o.nextInt();
+     double e = 3.14;
+     System.out.println(4*a);
+     System.out.println(2*(l+w));
+     System.out.printf("%.2f\n",2.0*e*r);
+     System.out.println(s+b1+b2);
+  }
+}
