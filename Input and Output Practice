@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+     Scanner o = new Scanner(System.in);
+     int a= o.nextInt();
+     float b = o.nextFloat();
+     char c = o.next().charAt(0);
+     long d = o.nextLong();
+     double e = o.nextDouble();
+     
+     System.out.println(a);
+     System.out.println(b);
+     System.out.println(c);
+     System.out.println(d);
+     System.out.println(e);
+   
+}
+}
