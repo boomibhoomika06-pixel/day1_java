@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner o = new Scanner(System.in);
+      int s = o.nextInt();
+      int l = o.nextInt();
+      int br = o.nextInt();
+      int r = o.nextInt();
+      int ba = o.nextInt();
+      int h = o.nextInt();
+      double pi = 3.14;
+      System.out.println("Area of Square="+(s*s));
+      System.out.println("Area of Rectangle="+(l*br));
+   
+      System.out.printf("Area of Circle=%.2f\n",pi*Math.pow(r,2));
+      System.out.println("Area of Triangle="+(int)((0.5)*ba*h));
+  }
+}
